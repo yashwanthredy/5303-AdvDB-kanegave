@@ -84,6 +84,6 @@ CREATE TABLE IF NOT EXISTS `products` (
         `gender` varchar(6) NOT NULL,
         `isbn` varchar(13) NOT NULL,
         `preOrderShipsOn` varchar(19) NOT NULL,
-        PRIMARY KEY(itemId,parentItemId,age,size,msrp,salePrice,stock,name,upc,brandName,modelNumber,color,sellerInfo,isbn)
+        PRIMARY KEY(itemId,parentItemId,age,size,msrp,salePrice,stock,name,upc,brandName,productUrl,modelNumber,color,sellerInfo,gender,isbn)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 ```
