@@ -17,12 +17,12 @@
 
 ### Instructions:
 
-## 1. \c testdb;
+# 1. \c testdb;
 ```
 postgres=# \c testdb;
 You are now connected to database "testdb" as user "postgres".
 ```
-## 2. \d projectgroup;
+# 2. \d projectgroup;
 ```
  Table "public.projectgroup"
    Column    |     Type      | Modifiers
@@ -34,7 +34,7 @@ You are now connected to database "testdb" as user "postgres".
 Indexes:
     "projectgroup_pkey" PRIMARY KEY, btree (mustangid)
 ```
-## 3. select * from projectgroup;
+# 3. select * from projectgroup;
 ```
            name            | mustangid | phonenumber |             email
 ---------------------------+-----------+-------------+--------------------------------
