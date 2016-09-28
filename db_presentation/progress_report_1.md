@@ -17,6 +17,6 @@
 
 ### Instructions:
 
-1. \c testdb
-2. \d projectgroup
+1. \c testdb;
+2. \d projectgroup;
 3. select * from projectgroup;
